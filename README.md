@@ -2,6 +2,7 @@
 This project aims to develop a desktop application using Python that allows users to input an English text, which the program then processes to generate a summary. The project utilizes natural language processing techniques and graphical representation to analyze the text, calculate sentence scores based on TF-IDF values, and display the similarities between sentences in a graph format. Additionally, the application presents the summarized text alongside the individual sentence scores.
 
 # Features
+
 ## 1-Text Input and Preprocessing
 -Accepts English text input from the user.
 
@@ -35,6 +36,7 @@ To run the project, ensure you have the following Python packages installed:
 pip install nltk networkx matplotlib scipy tkinter
 
 # Usage
+
 ## 1-Launch the Application:
 Run the Python script to start the application.
 python TextSummarizer.py
@@ -49,6 +51,7 @@ Click on the "Özetle" (Summarize) button to process the text.
 The application will display a graph of sentence similarities and the summarized text with sentence scores in separate windows.
 
 # Code Explanation
+
 ## 1-Text Preprocessing:
 -The onislememetni function tokenizes the input text into sentences and words, removes stopwords, and lemmatizes the words.
 
@@ -67,6 +70,7 @@ The application will display a graph of sentence similarities and the summarized
 -Tkinter is used to create the GUI with text input, a button to trigger summarization, and text boxes to display results.
 
 # Functions
+
 ## onislememetni(text)
 Preprocesses the input text.
 
@@ -86,9 +90,14 @@ Generates a summary from the graph.
 Main function to handle text input, processing, and displaying results in the GUI.
 
 # Example
+
 Here is a simple example of how to use the script:
 
 1-Run the script to open the GUI.
+
 2-Enter the text you want to summarize in the provided text box.
+
 3-Click the "Özetle" button.
+
 4-View the summarized text and the graph of sentence similarities.
+
