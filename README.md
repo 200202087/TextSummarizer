@@ -57,6 +57,7 @@ The application will display a graph of sentence similarities and the summarized
 
 ## 3-Graph Construction:
 -The graphOlustur function builds a graph based on sentence similarities.
+
 -The graphGorselleme function visualizes this graph.
 
 ## 4-Text Summarization:
