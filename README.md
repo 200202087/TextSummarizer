@@ -4,23 +4,29 @@ This project aims to develop a desktop application using Python that allows user
 # Features
 ## 1-Text Input and Preprocessing
 -Accepts English text input from the user.
+
 -Tokenizes the text into sentences and words.
+
 -Removes stopwords and lemmatizes the words.
 
 ## 2-Sentence Similarity Calculation
 -Calculates the TF-IDF values for words in each sentence.
+
 -Computes the similarity scores between sentences.
 
 ## 3-Graph Construction and Visualization
 -Constructs a graph where nodes represent sentences and edges represent similarity scores.
+
 -Visualizes the graph with nodes and edges using NetworkX and Matplotlib.
 
 ## 4-Text Summarization
 -Ranks sentences using the PageRank algorithm.
+
 -Generates a summary by selecting top-ranked sentences.
 
 ## 5-Graphical User Interface (GUI)
 -Provides a user-friendly interface using Tkinter.
+
 -Displays the input text, graph visualization, and the summarized text with sentence scores.
 
 # Installation
