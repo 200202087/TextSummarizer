@@ -7,78 +7,78 @@ This project aims to develop a desktop application using Python that allows user
 -Tokenizes the text into sentences and words.
 -Removes stopwords and lemmatizes the words.
 
-# 2-Sentence Similarity Calculation
+## 2-Sentence Similarity Calculation
 -Calculates the TF-IDF values for words in each sentence.
 -Computes the similarity scores between sentences.
 
-# 3-Graph Construction and Visualization
+## 3-Graph Construction and Visualization
 -Constructs a graph where nodes represent sentences and edges represent similarity scores.
 -Visualizes the graph with nodes and edges using NetworkX and Matplotlib.
 
-# 4-Text Summarization
+## 4-Text Summarization
 -Ranks sentences using the PageRank algorithm.
 -Generates a summary by selecting top-ranked sentences.
 
-# 5-Graphical User Interface (GUI)
+## 5-Graphical User Interface (GUI)
 -Provides a user-friendly interface using Tkinter.
 -Displays the input text, graph visualization, and the summarized text with sentence scores.
 
-## Installation
+# Installation
 To run the project, ensure you have the following Python packages installed:
 
 pip install nltk networkx matplotlib scipy tkinter
 
-## Usage
-# 1-Launch the Application:
+# Usage
+## 1-Launch the Application:
 Run the Python script to start the application.
 python TextSummarizer.py
 
-# 2-Input Text:
+## 2-Input Text:
 Enter or paste the English text into the text box provided in the application.
 
-# 3-Generate Summary:
+## 3-Generate Summary:
 Click on the "Özetle" (Summarize) button to process the text.
 
-# 4-View Results:
+## 4-View Results:
 The application will display a graph of sentence similarities and the summarized text with sentence scores in separate windows.
 
-## Code Explanation
-# 1-Text Preprocessing:
+# Code Explanation
+## 1-Text Preprocessing:
 -The onislememetni function tokenizes the input text into sentences and words, removes stopwords, and lemmatizes the words.
 
-# 2-Sentence Similarity Calculation:
+## 2-Sentence Similarity Calculation:
 -The cumleBenzerlikHesaplama function computes the TF-IDF similarity between sentences.
 
-# 3-Graph Construction:
+## 3-Graph Construction:
 -The graphOlustur function builds a graph based on sentence similarities.
 -The graphGorselleme function visualizes this graph.
 
-# 4-Text Summarization:
+## 4-Text Summarization:
 -The ozetMetni function ranks sentences and selects the top sentences for the summary.
 
-# 5-GUI Components:
+## 5-GUI Components:
 -Tkinter is used to create the GUI with text input, a button to trigger summarization, and text boxes to display results.
 
-## Functions
-# onislememetni(text)
+# Functions
+## onislememetni(text)
 Preprocesses the input text.
 
-# cumleBenzerlikHesaplama(cümle1, cümle2, dökümanlar)
+## cumleBenzerlikHesaplama(cümle1, cümle2, dökümanlar)
 Calculates the similarity score between two sentences.
 
-# graphOlustur(cümleler)
+## graphOlustur(cümleler)
 Constructs a graph from sentences.
 
-# graphGorselleme(graph)
+## graphGorselleme(graph)
 Visualizes the constructed graph.
 
-# ozetMetni(graph, cümleler, num_sentences=3)
+## ozetMetni(graph, cümleler, num_sentences=3)
 Generates a summary from the graph.
 
-# ozet()
+## ozet()
 Main function to handle text input, processing, and displaying results in the GUI.
 
-## Example
+# Example
 Here is a simple example of how to use the script:
 
 1-Run the script to open the GUI.
