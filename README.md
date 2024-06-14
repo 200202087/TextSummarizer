@@ -1,8 +1,8 @@
-## Project Description
+# Project Description
 This project aims to develop a desktop application using Python that allows users to input an English text, which the program then processes to generate a summary. The project utilizes natural language processing techniques and graphical representation to analyze the text, calculate sentence scores based on TF-IDF values, and display the similarities between sentences in a graph format. Additionally, the application presents the summarized text alongside the individual sentence scores.
 
-## Features
-# 1-Text Input and Preprocessing
+# Features
+## 1-Text Input and Preprocessing
 -Accepts English text input from the user.
 -Tokenizes the text into sentences and words.
 -Removes stopwords and lemmatizes the words.
